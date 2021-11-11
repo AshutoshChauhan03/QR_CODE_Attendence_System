@@ -1,0 +1,15 @@
+# Fire all these queries on your mysql database server
+
+CREATE DATABASE `attendance`;
+
+USE DATABASE `attendance`;
+
+CREATE TABLE `attendance` (
+  `S_No` tinyint NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `time` datetime DEFAULT NULL,
+  PRIMARY KEY (`S_No`)
+);
+
+ALTER TABLE `attendance`
+AUTO_INCREMENT = 1;

@@ -1,0 +1,15 @@
+/*
+    AUTHOR : ASHUTOSH CHAUHAN
+    CREATED ON : 11\11\2021
+*/
+
+1. Create some qr codes of names of person whose attendance is going to be monitored
+2. run generatingQR.py python file and enter number of people you want to add
+3. Add there names
+4. Now QR Codes folder would be populated with the qr codes you just created
+5. Goto the scanningQR.py file and run it
+6. put your generated qr code in front of camera and scan them
+7. Press e when done to close the camera
+8. open your mysql cli and fire queries in TABLE DEFINITION in MYSQL.txt
+9. Run updateDBMS.py file
+10. It will automatically update the data on the attendance.txt file to the mysql server
